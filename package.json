@@ -1,0 +1,32 @@
+{
+	"name": "chatgpt-prototype-integration",
+	"version": "1.0.0",
+	"description": "prototyping the chat gpt to generate a json object",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Michael-Mamaye/chatGPT-prototype-integration.git"
+	},
+	"author": "Mike",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Michael-Mamaye/chatGPT-prototype-integration/issues"
+	},
+	"homepage": "https://github.com/Michael-Mamaye/chatGPT-prototype-integration#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"openai": "^3.2.1"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.17",
+		"@types/node": "^18.15.5",
+		"nodemon": "^2.0.21",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.2"
+	}
+}
